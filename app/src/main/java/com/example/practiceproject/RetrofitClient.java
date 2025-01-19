@@ -10,7 +10,7 @@ public class RetrofitClient {
     public static Retrofit getClient() {
         if (retrofit == null) {
             retrofit = new Retrofit.Builder()
-                    .baseUrl("https://openlibrary.org/developers/api")
+                    .baseUrl("http://openlibrary.org")
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
         }

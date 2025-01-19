@@ -6,6 +6,6 @@ import retrofit2.http.GET;
 // API取得インターフェース
 public interface ApiService {
     // リスト作成API取得
-    @GET("/lists#create-list")
-    Call<ListsResponse> getPost();
+    @GET("/people/george08/lists.json")
+    Call<ListsResponse> getResponse();
 }
