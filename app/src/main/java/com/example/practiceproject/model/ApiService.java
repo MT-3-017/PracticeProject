@@ -1,4 +1,4 @@
-package com.example.practiceproject;
+package com.example.practiceproject.model;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
